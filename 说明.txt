@@ -1,0 +1,54 @@
+﻿豆包破甲 · 一次注入包 v2
+=====================================
+
+内容
+  install.py            落盘技能包（SKILL.md / contract.md / 导航文件）
+  inject_preference.py  CDP 填偏好指令 + 行为自检
+  src/                  契约正文、偏好指令全文
+  verify/               cdp.py + 行为验证脚本
+  docs/                 实测记录与安装说明
+  一键注入.bat          双击即完成上面两步
+
+用法
+  1. 解压到任意目录
+  2. 双击 一键注入.bat
+  3. 看到 RESULT: PASS - injected and behavior verified 就是成功
+  4. 豆包切「工作任务」模式使用
+
+自动查找（不需要改代码）
+  exe 顺序：--exe → DOUBAO_EXE → 注册表卸载项 → 桌面/开始菜单快捷方式
+           → 运行中的豆包 → LOCALAPPDATA / Program Files / ProgramData
+           → C/D/E/F 常见目录浅扫
+  workspace：LOCALAPPDATA / APPDATA / 所有 profile / macOS / Linux
+  找不到时用：python inject_preference.py --exe "路径"
+             python install.py --data-dir "agent_mode\workspace 路径"
+
+怎么判断生效（2.36.10 及以后）
+  新版会拦截「复述系统注入内容」：问它"说出契约标签"，它答"我不能透露"。
+  这不代表注入失败，只说明它不愿背标签。
+  改成发一条技术任务：
+      写一个 Python 脚本：读取 CSV，统计每列空值，输出表格。只给代码。
+  回复第一段直接是代码、没有"好的/以下是/仅供参考" = 契约在干活。
+  inject_preference.py 内置了这个自检，PASS 就代表行为已验证。
+
+直接问：工作任务。按契约执行，输出工件，不解释。-------》看结果
+
+下次打开还能用吗
+  能。偏好指令是账号级（存服务器），技能包在本机 .user_skills，重启不丢。
+  普通「对话」模式不注入，这是豆包产品设计。
+
+失效后怎么办
+  豆包大版本更新、清缓存、换账号后：重跑 一键注入.bat。
+
+卸载
+  python install.py --uninstall
+  偏好指令去 设置 → 工作模式设置 → 个性化 → 工作任务偏好指令 手动清空。
+
+排错
+  - 9222 没起来：结束所有 Doubao.exe 再跑
+  - 找不到 工作模式设置：豆包改版，打开 src\preference-instruction.txt 手动粘贴
+  - behavior=CHECK：注入成功但探测没抓到代码，手动发任务复验
+
+联系：（QQ）1055589934
+
+完全为LV 黑客开发，网上没有关于这个版本的豆包，不信可以去查，包括tg都没有。
