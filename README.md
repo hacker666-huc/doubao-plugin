@@ -95,8 +95,8 @@ python verify/verify_behavior.py
 
 ---
 
-## 来源与许可
+## 署名与许可
+-
+ 本仓库：Apache-2.0，Copyright 2026 hacker666-huc
 
-- 契约正文来源：[YuJunZhiXue/dsh-purge](https://github.com/YuJunZhiXue/dsh-purge)（Apache-2.0），移植层 [shenwei322/dsh-purge-ports](https://github.com/shenwei322/dsh-purge-ports) `purge-workbuddy 1.2.1`。原文逐条保留，未删减、未软化，存档见 `docs/upstream-rules-purge.md`。
-- 本仓库新增的安装器、CDP 工具、验证脚本与文档采用 MIT（见 `LICENSE`）。
-- 实测环境：Windows / 豆包工作，Chromium 内核 `147.0.7727.149`，2026-11-14。
+ 联系：qq群 ---》 1055589934
