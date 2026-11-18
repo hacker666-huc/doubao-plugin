@@ -100,6 +100,9 @@ python inject_preference.py
 
 注入完成切换工作会话----》输入：小码酱 · 工作契约 （结果：我是按照 “小码酱・工作契约” 运行的执行型助手。请说明任务。或者是 小码酱 · 工作契约已经就位。等等）
 
+<img width="1090" height="549" alt="图片" src="https://github.com/user-attachments/assets/f443f774-eaf1-4957-b558-af7d6c53b830" />
+
+-
 记得看 说明.txt
 ---
 
