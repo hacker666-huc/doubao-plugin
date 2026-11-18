@@ -1,6 +1,6 @@
 # doubao-purge-port
 
-把 `dsh-purge` 契约移植到**豆包桌面端（豆包工作 / Doubao Work）**，并且做到**每轮自动注入**。
+把契约移植到**豆包桌面端（豆包工作 / Doubao Work）**，并且做到**每轮自动注入**。
 包含：WorkBuddy/CodeBuddy 插件包、豆包 `SKILL.md` 技能包、一键安装器、CDP 自动注入器、行为验证工具和完整实测记录。
 
 希望对你们有帮助！
@@ -72,7 +72,7 @@ python verify/verify_behavior.py
 
 ---
 
-## 验收标准
+## 验收标准（看 说明.txt）
 
 `verify/verify_behavior.py` 会自动检查，手动验收按这几条：
 
@@ -94,11 +94,11 @@ python verify/verify_behavior.py
 
 ## 联系
 -
- 联系：qq群 ---》 1055589934
+ 联系交流：qq群 ---》 1055589934
 
 ## 感谢支持我开发的人员
 -
- 王帥hh，冬露逢，鼠_张总，笑口常开
+ 王帥hh，冬露逢，鼠_张总，笑口常开，渣渣冰🧊，Jiahao
 
 
 ## 署名与许可
