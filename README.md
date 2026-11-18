@@ -30,25 +30,6 @@ python inject_preference.py
 
 ---
 
-## 目录
-
-| 路径 | 用途 |
-| --- | --- |
-| `src/contract.md` | 契约全文，唯一事实源（3744 字正文） |
-| `src/SKILL.md` | 豆包/WorkBuddy 技能包，YAML 只需 `name` + `description` |
-| `src/preference-instruction.txt` | 写进「工作任务偏好指令」的全文，含换机重装说明 |
-| `plugin/` | WorkBuddy/CodeBuddy 插件包：`.codebuddy-plugin/plugin.json` + `rules/` + `skills/` |
-| `install.py` | 一键落盘技能、工作区导航、偏好指令备份；支持 `--dry-run` / `--uninstall` |
-| `inject_preference.py` | 通过 CDP 自动打开设置、填写并保存偏好指令，完成后恢复正常启动参数 |
-| `verify/cdp.py` | 零依赖 CDP / WebSocket 客户端（标准库实现 RFC6455） |
-| `verify/verify_behavior.py` | 发真实消息、读真实回复，多轮判定契约是否在上下文里 |
-| `workspace/` | 落到 `~/Doubao/` 的导航文件模板：`AGENTS.md` / `README.md` |
-| `docs/FINDINGS.md` | 实测记录：四组实验、请求体结构、风控标记、弯路与结论 |
-| `docs/INSTALL.md` | 手动安装步骤、GUI 上传技能、验收清单 |
-| `docs/upstream-rules-purge.md` | 上游 `purge-workbuddy 1.2.1` 的 `rules/purge.md` 原文存档 |
-
----
-
 ## 载体地图：什么进上下文、什么时候进
 
 | 载体 | 位置 | 何时进上下文 | 实测结果 |
