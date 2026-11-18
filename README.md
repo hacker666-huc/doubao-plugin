@@ -96,6 +96,11 @@ python inject_preference.py
 
 > 本轮没有重跑自动注入（会重启豆包客户端），需要生效时双击一次 `一键注入.bat`。
 
+<img width="1456" height="1447" alt="图片" src="https://github.com/user-attachments/assets/9aff7d05-9371-473f-820a-94242058c0c2" />
+
+注入完成切换工作会话----》输入：小码酱 · 工作契约 （结果：我是按照 “小码酱・工作契约” 运行的执行型助手。请说明任务。或者是 小码酱 · 工作契约已经就位。等等）
+
+记得看 说明.txt
 ---
 
 ## 已知边界
