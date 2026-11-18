@@ -3,8 +3,7 @@
 把 `dsh-purge` 契约移植到**豆包桌面端（豆包工作 / Doubao Work）**，并且做到**每轮自动注入**。
 包含：WorkBuddy/CodeBuddy 插件包、豆包 `SKILL.md` 技能包、一键安装器、CDP 自动注入器、行为验证工具和完整实测记录。
 
-上游 `shenwei322/dsh-purge-ports` 只做了 WorkBuddy 与 ZCode 两个宿主，**没有豆包版**；豆包内置技能里也没有这类契约。这个仓库补的是这一块，并把「每轮都带」这件事实测到底。
-
+希望对你们有帮助！
 ---
 
 ## 一句话结论
@@ -19,8 +18,6 @@
 ## 快速开始
 
 ```bash
-git clone https://github.com/w239323844/doubao-purge-port
-cd doubao-purge-port
 
 # 1) 落盘技能包 + 工作区文件（自动定位豆包数据目录）
 python install.py
@@ -30,10 +27,11 @@ python inject_preference.py
 
 # 3) 行为验证：多轮 + 换话题，检查契约是否每轮都在
 python verify/verify_behavior.py
-```
 
-`install.py` 与 `inject_preference.py` 只需要 Python 3.8+ 标准库，不需要 pip 装任何东西。
-不想让脚本重启客户端的话，跳过第 2 步，照 [docs/INSTALL.md](docs/INSTALL.md) 手动粘贴 `src/preference-instruction.txt` 全文即可。
+或者直接用注入.bat脚本（最简单）
+
+---
+
 
 ---
 
@@ -95,8 +93,19 @@ python verify/verify_behavior.py
 
 ---
 
+## 联系
+-
+ 联系：qq群 ---》 1055589934
+
+## 感谢支持我开发的人员
+-
+ 王帥hh，冬露逢，鼠_张总，笑口常开
+
+
 ## 署名与许可
 -
  本仓库：Apache-2.0，Copyright 2026 hacker666-huc
 
- 联系：qq群 ---》 1055589934
+-
+请不要侵权，否则后果自负！
+
