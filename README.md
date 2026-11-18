@@ -97,11 +97,14 @@ python verify/verify_behavior.py
 
 ## 感谢支持我开发的人员
 -
+
  几名强网：王帥hh，冬露逢，鼠_张总，笑口常开，渣渣冰🧊
+ 
 -
+
  一名脚本：Jiahao
 
-
+-
 ## 署名与许可
 -
  本仓库：Apache-2.0，Copyright 2026 hacker666-huc
