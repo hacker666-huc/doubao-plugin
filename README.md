@@ -103,7 +103,9 @@ python inject_preference.py
 <img width="1090" height="549" alt="图片" src="https://github.com/user-attachments/assets/f443f774-eaf1-4957-b558-af7d6c53b830" />
 
 -
+
 记得看 说明.txt
+
 ---
 
 ## 已知边界
