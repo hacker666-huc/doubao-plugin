@@ -1,4 +1,4 @@
-# doubao-purge-port
+# doubao-purge （需要python环境）
 ✔️✔️✔️    🎉🎉🎉
 -
 把契约移植到**豆包桌面端（豆包工作 / Doubao Work）**，并且做到**每轮自动注入**。
